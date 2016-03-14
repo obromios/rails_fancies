@@ -22,9 +22,7 @@ module RailsFancies
               content_tag(:p, "#{text}", class: 'faq_answers')
           end
         else
-          content_tag :div, class: 'faq_errors' do
-            "FAQ ERROR: No question was found with a name of :#{name}"
-          end
+          raise "No question was found with a name of :#{name}"
         end
       end
     end
