@@ -38,4 +38,10 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # ensure lib modules are loaded automatically
+  ActiveSupport::Dependencies.autoload_paths << File::join( Rails.root.parent.parent, 'lib')
+  ActiveSupport::Dependencies.explicitly_unloadable_constants << 'RailsFancies::FancyFaqHelper'
+  pp 'paths', ActiveSupport::Dependencies.autoload_paths
+  pp 'constants', ActiveSupport::Dependencies.explicitly_unloadable_constants
 end
