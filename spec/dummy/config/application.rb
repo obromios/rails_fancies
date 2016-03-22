@@ -27,6 +27,8 @@ module Dummy
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    # ensure lib modules are loaded automatically
+    config.eager_load_paths += ["#{Rails.root.parent.parent}/lib}"]
   end
 end
 
