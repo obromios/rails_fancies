@@ -9,7 +9,17 @@
     <%= link_to ">", date: @date.next_week %>
   </h2>
   <%= fancy_weekly_calendar @date do |date, slot_num| %>
-    <%= show_details(date, slot_num) %>
+      <% if @bookings.where(day: date, slot: slot_num).first %>
+        <% booking = @bookings.where(day: date, slot: slot_num).first %>
+        <%= link_to booking.name, booking %>
+      <% elsif slot_available?(date, slot_num) %>
+        <% @booking = Booking.new(day: date, slot: slot_num) %>
+        <%= form_for @booking do |f| %>
+          <%= f.hidden_field :day %>
+          <%= f.hidden_field :slot %>
+          <%= f.submit 'Book Me' %>
+        <% end -%>
+      <% end -%>
   <% end %>
 </div>
 

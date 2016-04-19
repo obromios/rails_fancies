@@ -4,15 +4,10 @@ module RailsFancies
 	  def fancy_weekly_calendar(date = Date.today, &block)
 	    Calendar.new(self, date, block).table
 	  end
-	  def show_details(date, slot_num)
-	    if @bookings.where(day: date, slot: slot_num).first
-	      booking = @bookings.where(day: date, slot: slot_num).first
-	      link_to booking.name, booking
-	    elsif Calendar.available?(date, slot_num)
-	      link_to 'Book Me', bookings_path(booking:
-	        { day: date, slot: slot_num }), method: :post
-	    end
+	  def slot_available?(date, slot_num)
+	  	Calendar.available?(date, slot_num)
 	  end
+
 	  class Calendar < Struct.new(:view, :date, :callback)
 	    HEADER = %w[Time Monday Tuesday Wednesday Thursday Friday Saturday Sunday]
 	    START_DAY = :monday
