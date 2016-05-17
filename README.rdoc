@@ -1,5 +1,5 @@
 = RailsFancies
 
 Rails Fancies is an open source project to develop some Ruby on Rails helpers.  Most rails helpers tend to be tightly focused on placing a single element on a page, like a link or an image tag.  Rails Fancies is for helpers that a more complex and can form the core of a web page. 
- 
-Early examples are helpers to produce an FAQ page and a Monthly Calendar.  Helpers in Rails Fancies do not have to be strictly practical, they can be fanciful in their purpose or in their design (though they do need to work).  If you would like to contribute to the Rails Fancies project, then please raise an issue at the <%= link_to 'github site', 'https://github.com/obromios/rails_fancies', target: '_blank' %>.
+
+Early examples are helpers to produce an FAQ page and a Monthly Calendar.  Helpers in Rails Fancies do not have to be strictly practical, they can be fanciful in their purpose or in their design (though they do need to work).  If you would like to contribute to the Rails Fancies project, then please raise an issue.
