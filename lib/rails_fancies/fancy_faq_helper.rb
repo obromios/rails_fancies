@@ -8,9 +8,11 @@ module RailsFancies
     class FancyFaq < Struct.new(:view, :question_list)
       delegate :content_tag, to: :view
       def question(name, text)
-        question_list[name] = text
-        content_tag :a, href: "##{name}", class: 'faq_question' do
-          "#{text}?"
+        add_to_questions question_list, name, text
+        content_tag :div, class: 'faq_answer' do
+          content_tag :a, href: "##{name}" do
+            "#{text}?"
+          end
         end
       end
 
@@ -23,6 +25,16 @@ module RailsFancies
           end
         else
           raise "No question was found with a name of :#{name}"
+        end
+      end
+
+      private
+
+      def add_to_questions(list, name, text)
+        if list[name].present?
+          raise "A question with the name of :#{name} already exists."
+        else
+          list[name] = text
         end
       end
     end

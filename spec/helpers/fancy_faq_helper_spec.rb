@@ -1,8 +1,16 @@
-require 'spec_helper'
+require 'rails_helper'
 module RailsFancies
 	describe FancyFaqHelper do
 		it 'should reject an answer without a question' do
 			expect{helper.fancy_faq{|f| f.answer :no_question, 'missing question'}}.to raise_error 'No question was found with a name of :no_question'
+		end
+		it 'should reject two questions with the name name' do
+		  expect{
+			  helper.fancy_faq do |f|
+				f.question :double, 'What cant I have two questions with same name'
+				f.question :double, 'Already asked this'
+			end
+			}.to raise_error 'A question with the name of :double already exists.'
 		end
 		it 'should output question with no answer' do
 			expect(helper.fancy_faq{|f| f.question :no_answer, 'Unanswerable'}).to include
