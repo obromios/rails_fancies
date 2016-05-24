@@ -8,8 +8,8 @@ module RailsFancies
     class FancyFaq < Struct.new(:view, :question_list)
       delegate :content_tag, to: :view
       def question(name, text)
-        add_to_questions question_list, name, text
-        content_tag :div, class: 'faq_answer' do
+        add_to_list question_list, name, text
+        content_tag :div, class: 'faq_question' do
           content_tag :a, href: "##{name}" do
             "#{text}?"
           end
@@ -20,7 +20,7 @@ module RailsFancies
         if question_list[name.to_sym].present?
           content_tag :div, class: 'faq_answer' do
             content_tag(:a, '', name: "#{name}") +
-              content_tag(:h3, question_list[name.to_sym], class: 'faq_answer_heading') +
+              content_tag(:h3, question_list[name.to_sym]+'?', class: 'faq_answer_heading') +
               content_tag(:p, "#{text}", class: 'faq_answers')
           end
         else
@@ -30,7 +30,7 @@ module RailsFancies
 
       private
 
-      def add_to_questions(list, name, text)
+      def add_to_list(list, name, text)
         if list[name].present?
           raise "A question with the name of :#{name} already exists."
         else
