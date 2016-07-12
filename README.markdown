@@ -6,10 +6,20 @@ Rails Fancies is an open source project to develop some fanciful Ruby on Rails h
 ## FAQ Helper
 This is a helper to write a FAQ helper. You can arrange the questions and answer separately and click through to from the question to the corresponding answer.
 
+## Install
+```
+gem 'rails_fancies'
+```
+and then bundle.
+## Requirements
+```
+Rails 4
+```
+
+
 ## How to Use FAQ Helper
 In your gemfile, include
-gem 'rails_fancies'
-and then bundle.
+
 
 Here is an example of how to use the FAQ helper
 ```
