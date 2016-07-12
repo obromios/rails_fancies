@@ -1,6 +1,12 @@
-<h1>List of Helpers</h1>
+<h1>FAQ Helpers</h1>
 <%= fancy_faq do |f| %>
-	<%= f.question :first, 'Is this the first Question' %>
-	<%= f.answer :first, 'Yes it is' %>
+<div class="faq_block">
+	<h2>Questions</h2>
+	<%= f.question :first, 'Is this the first question?' %>
+	<%= f.question :second, 'Is this the second question?' %>
+	<h2>Answers</h2>
+	<%= f.answer :first, 'Yes it is the answer to the first question, and let me add that it is a very good question indeed.' %>
+	<%= f.answer :second, 'Yes this is the answer to the second question, and I now find the answer and the question repetitive. ' %>
+</div>
 <% end -%>
 
