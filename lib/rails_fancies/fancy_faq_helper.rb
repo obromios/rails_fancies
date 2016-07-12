@@ -20,7 +20,7 @@ module RailsFancies
         if question_list[name.to_sym].present?
           content_tag :div, class: 'faq_answer' do
             content_tag(:a, '', name: "#{name}") +
-              content_tag(:h3, question_list[name.to_sym]+'?', class: 'faq_answer_heading') +
+              content_tag(:div, question_list[name.to_sym]+'?', class: 'faq_answer_heading') +
               content_tag(:p, "#{text}", class: 'faq_answers')
           end
         else
