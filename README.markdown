@@ -1,7 +1,7 @@
-#RailsFancies
+#Rails Fancies
 
 ## Introduction
-Rails Fancies is an open source project to develop some fanciful Ruby on Rails helpers.  Most rails helpers tend to be tightly focused on placing a single element on a page, like a link or an image tag.  Rails Fancies is for helpers that a more complex and can form the basis of complete a web page. 
+Rails Fancies is an open source project to develop some fanciful Ruby on Rails helpers.  Most rails helpers tend to be tightly focused on placing a single element on a page, like a link or an image tag.  Rails Fancies is for helpers that are more complex and can form the basis of complete a web page. 
 
 ## FAQ Helper
 This is a helper to write a FAQ helper. You can arrange the questions and answer separately and click through to from the question to the corresponding answer.
