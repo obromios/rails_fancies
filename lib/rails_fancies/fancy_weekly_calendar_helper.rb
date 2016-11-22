@@ -1,14 +1,14 @@
 # basis for this is http://railscasts.com/episodes/213-calendars-revised
 module RailsFancies
 	module FancyWeeklyCalendarHelper
-	  def fancy_weekly_calendar(date = Date.today, &block)
-	    Calendar.new(self, date, block).table
+	  def fancy_weekly_calendar(date = Date.today, options = {}, &block)
+	    Calendar.new(self, date, options, block).table
 	  end
 	  def slot_available?(date, slot_num)
 	  	Calendar.available?(date, slot_num)
 	  end
 
-	  class Calendar < Struct.new(:view, :date, :callback)
+	  class Calendar < Struct.new(:view, :date, :options, :callback)
 	    HEADER = %w[Time Monday Tuesday Wednesday Thursday Friday Saturday Sunday]
 	    START_DAY = :monday
 	    SLOT_DURATION = 30.minutes
@@ -69,8 +69,10 @@ module RailsFancies
 	    end
 
 	    def weekly_slots
-	      first = date.beginning_of_week(START_DAY)
-	      last = date.end_of_week(START_DAY)
+	puts 'start day', start_day, options
+	    	start_day = options[:start_day] || START_DAY
+	      first = date.beginning_of_week(start_day)
+	      last = date.end_of_week(start_day)
 	      weeks = []
 	      week = (first..last).to_a
 	      slots = (SLOT_START..SLOT_END)
