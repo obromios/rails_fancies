@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = RailsFancies::VERSION
   s.authors     = ["Chris Drane"]
   s.email       = ["obromios@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsFancies."
-  s.description = "TODO: Description of RailsFancies."
+  s.homepage    = "https://github.com/obromios/rails_fancies"
+  s.summary     = "Project to develop some fanciful Ruby on Rails helpers."
+  s.description = "Project to develop some fanciful Ruby on Rails helpers."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -23,4 +23,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'binding_of_caller'
   s.add_development_dependency 'sassc-rails'
   s.add_development_dependency 'meta_request'
+  s.add_dependency "loofah", "~> 2.2.1"
+  s.add_dependency "rails-html-sanitizer", "~> 1.0.4bundle "
 end
