@@ -1,6 +1,12 @@
 a.faq_question{
-	font-size: 140%;
+	font-size: 110%;
 }
-h3.faq_answer_heading{
-	color: red;
+.faq_answer_heading{
+	font-weight: bold;
+}
+.faq_block{
+	width: 500px;
+	padding: 20px;
+	background-color: #eee;
+	border: solid 1px gray;
 }
