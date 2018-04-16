@@ -1,8 +1,7 @@
 # Rails Fancies deployment history
-* v1.0.5
-  Fix accidental reversion of loofah
+* v1.0.4
+  Merge with Uni branch
   Upgrade to ruby 2.5.1
-* v1.0.4 merged with uni branch
 * v1.0.3 - updated loofah and rails-html-sanitizer gems for security reasons.
 * v1.0.2
 	Remove restriction to rails 4
