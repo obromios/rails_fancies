@@ -2,9 +2,9 @@ PATH
   remote: .
   specs:
     rails_fancies (1.0.3)
-      loofah (~> 2.2.1)
+      loofah (>= 2.2.2)
       rails (>= 4.2)
-      rails-html-sanitizer (~> 1.0.4bundle)
+      rails-html-sanitizer (>= 1.0.4)
 
 GEM
   remote: https://rubygems.org/

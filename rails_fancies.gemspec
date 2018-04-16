@@ -23,6 +23,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'binding_of_caller'
   s.add_development_dependency 'sassc-rails'
   s.add_development_dependency 'meta_request'
-  s.add_dependency "loofah", "~> 2.2.1"
-  s.add_dependency "rails-html-sanitizer", "~> 1.0.4bundle "
+  s.add_dependency "loofah", ">= 2.2.2"
+  s.add_dependency "rails-html-sanitizer", ">= 1.0.4"
 end
