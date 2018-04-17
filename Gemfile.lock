@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_fancies (1.0.5)
+    rails_fancies (1.0.4)
       loofah (>= 2.2.2)
       rails (>= 4.2)
       rails-html-sanitizer (>= 1.0.4)
