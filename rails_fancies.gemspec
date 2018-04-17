@@ -13,16 +13,20 @@ Gem::Specification.new do |s|
   s.summary     = "Rails Fancies is an open source project to develop some fanciful Ruby on Rails helpers."
   s.description = "Most rails helpers tend to be tightly focused on placing a single element on a page, like a link or an image tag.  Rails Fancies is for helpers that are more complex and can form the basis of complete a web page. The inaugural helper is a FAQ helper."
   s.license     = "MIT"
-
+  s.metadata    = {
+    "source_code_uri" => "https://github.com/obromios/rails_fancies",
+    "changelog_uri" => "https://github.com/obromios/rails_fancies/blob/master/CHANGELOG.md"
+  }
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", ">= 4.2"
-  s.add_development_dependency "rspec-rails"
-  s.add_development_dependency "sqlite3"
-  s.add_development_dependency "better_errors"
-  s.add_development_dependency 'binding_of_caller'
-  s.add_development_dependency 'sassc-rails'
-  s.add_development_dependency 'meta_request'
-  s.add_dependency "loofah", ">= 2.2.2"
-  s.add_dependency "rails-html-sanitizer", ">= 1.0.4"
+  s.add_runtime_dependency "rails", "~> 4.2", ">= 4.2.10"
+  s.add_development_dependency "rails", "~> 4.2", ">= 4.2.10"
+  s.add_development_dependency "rspec-rails", '~> 3.4','>= 3.4.2'
+  s.add_development_dependency "sqlite3", "~> 1.3", ">= 1.3.13"
+  s.add_development_dependency "better_errors", "~> 2.1", ">= 2.1.1"
+  s.add_development_dependency 'binding_of_caller', "~> 0.7", ">= 0.7.2"
+  s.add_development_dependency 'sassc-rails', "~> 1.2", ">= 1.2.1"
+  s.add_development_dependency 'meta_request', "~> 0.4", ">= 0.4.0"
+  s.add_development_dependency "loofah", "~> 2.2", ">= 2.2.2"
+  s.add_development_dependency "rails-html-sanitizer", "~> 1.0", ">= 1.0.4"
 end
