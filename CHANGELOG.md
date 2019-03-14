@@ -1,5 +1,5 @@
 # Rails Fancies deployment history
-## Open v1.0.6
+## v1.0.6, Upgrade to 4.2.11.1 for security fixes 2019-03-15
 ## v1.0.5, Date 2018-04-18
   - downgrade to ruby 2.4.4
   - Add script to build and push gem
