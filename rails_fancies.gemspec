@@ -18,8 +18,9 @@ Gem::Specification.new do |s|
     "changelog_uri" => "https://github.com/obromios/rails_fancies/blob/master/CHANGELOG.md"
   }
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-
+  s.add_dependency "nokogiri", ">= 1.10.4"
   s.add_runtime_dependency "rails", "~> 4.2", ">= 4.2.11.1"
+
   s.add_development_dependency "rails", "~> 4.2", ">= 4.2.11.1"
   s.add_development_dependency "rspec-rails", '~> 3.4','>= 3.4.2'
   s.add_development_dependency "sqlite3", "~> 1.3", ">= 1.3.13"

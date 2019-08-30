@@ -1,0 +1,12 @@
+language: ruby
+sudo: false
+before_install:
+- gem install -v 1.17.2 bundler
+deploy:
+  provider: rubygems
+  api_key:
+    secure: EAtb2ujIXHfcI1wUUu+1IRLaQgmX8LWfUBC+nu1AcRT6XUojnjp9bvsFv59ddWZ7K5KppQjkk/HiobZbcDW7CCrNKjaOmj5YkKL9A3tBaXtgUIyfLKR9vX5qmsWNDjMm86CjIwR4ArOx8STPRJVXreRVKW8WSi6s5wnT299GTAynOwu2CbK9Hvy3WYqDHqSBmGORxdu/tMImQFtoO53ivU05U+uxVQPFX1esJ+bEjEdLjja7ooCRQnPfTkn7yJhHbG1N1/XVG32Aw+h/QHUh4/EYq00dsmiDnt71kh7gdxC+Q59TD7DseJpo5DPzXOMUvMIxHmeDugpLEVCZCxf6UjDGRpJO5holQ+pl85Vav4s27TagF7yM0MJmfFDpsUwvDEJD5eh+2ZgbnlUeiZKTJr/1AvQzfHIJ+X0wJusvUFK5Ycfn+HIfxYwwTK++6+Ocb2woHTwKPCj14jK6nI2VxMahTUN4+eiNmSk8zhXAH9AxqjpifOoJffX4LRc/n8FlUzmqvp3D9SEFx74tMoDQZs9W/006iGKgfg1f3aopSy6ekJPXdB0K1ly/cQ2LN0E/GyYjyAi0P3A7cgnJDSKt/NNNUiaspK9DF7MlHb2Y42yjKf2+lUZci7cQDBpC+FrPp6O3594NooxW35JBHHUP+ANjMZAbrzf8xE8XGT1KR9Y=
+  gem: rails_fancies
+  on:
+    tags: true
+    repo: obromios/rails_fancies
