@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     rails_fancies (1.0.10)
-      nokogiri (>= 1.10.4)
+      nokogiri (~> 1.10, >= 1.10.4)
       rails (~> 4.2, >= 4.2.11.1)
 
 GEM
