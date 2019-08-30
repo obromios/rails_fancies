@@ -5,6 +5,8 @@ include RailsFancies
 # `git add .`
 # `git commit -m "Build v#{RailsFancies::VERSION} of rails_fancies"`
 `bundle`
+`git add .`
+`git commit`
 `git push origin master`
 # `gem push rails_fancies-#{RailsFancies::VERSION}.gem`
 `git tag v#{RailsFancies::VERSION} -a`
