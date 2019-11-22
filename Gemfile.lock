@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_fancies (1.0.10)
+    rails_fancies (1.0.11)
       rails (~> 4.2, >= 4.2.11.1)
 
 GEM
