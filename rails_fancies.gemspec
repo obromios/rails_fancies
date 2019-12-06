@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   # rubocop:enable LineLength
   s.add_development_dependency 'better_errors', '~> 2.1', '>= 2.1.1'
   s.add_development_dependency 'rails', '~> 4.2', '>= 4.2.11.1'
-  s.add_development_dependency 'rails-html-sanitizer', '~> 1.0', '>= 1.0.4'
+  s.add_development_dependency 'rails-html-sanitizer', '~> 1.0', '>= 1.2.0'
   s.add_development_dependency 'rspec-rails', '~> 3.8','>= 3.8.2'
   s.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
   s.add_development_dependency 'binding_of_caller', '~> 0.7', '>= 0.7.2'
