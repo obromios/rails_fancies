@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 # Declare your gem's dependencies in rails_fancies.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
-ruby '2.5.7'
 gemspec
 
 # Declare any dependencies that are still in development here instead of in
