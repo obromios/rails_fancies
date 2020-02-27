@@ -1,8 +1,8 @@
 # Rails Fancies deployment history
 ## v1.0.14
   - Upgrade for security fixes
-   - upgrade nokogiri to 1.10.8
-  - upgrade rack to 2.0.8
+  - upgrade nokogiri to 1.10.8
+  - upgrade rack to 1.6.13
 ## v1.0.13 Upgrade for security fixes
 ## v1.0.6, Upgrade to 4.2.11.1 for security fixes 2019-03-15
 ## v1.0.5, Date 2018-04-18
