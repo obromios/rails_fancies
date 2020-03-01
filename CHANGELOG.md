@@ -1,4 +1,6 @@
 # Rails Fancies deployment history
+## v1.0.15 bd14c43 1-3-2020 17:51
+ - Update rake to 12.3.3 for security fix
 ## v1.0.14 640a7a9 27-2-2020 19:34
   - Upgrade for security fixes
   - upgrade nokogiri to 1.10.8
