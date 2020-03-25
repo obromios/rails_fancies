@@ -16,6 +16,8 @@ and then bundle.
 Rails 4
 ```
 
+# Security issue
+You may have noticed that Github has flagged the escape_javascript unknown_input [security issue](https://github.com/obromios/chris_lib/network/alert/Gemfile.lock/actionview/open).  We have not upgraded actionview, because this repository does not use the escape_javascript unknown_input method. If you do disagree with this explanation or have identified any potential security issues with this repository, please contact us.
 
 ## How to Use FAQ Helper
 In your gemfile, include
