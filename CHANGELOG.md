@@ -1,5 +1,6 @@
 # Rails Fancies deployment history
-## v1.0.16
+## v1.0.171
+## v1.0.16 014cd72 26-3-2020 10:09
   - explain escape_javascript unknown_input security issue in README
 ## v1.0.15 bd14c43 1-3-2020 17:51
  - Update rake to 12.3.3 for security fix
