@@ -1,5 +1,6 @@
 # Rails Fancies deployment history
-## v1.0.17
+## v1.0.18
+## v1.0.17 43d8adc 22-7-2020 16:47
   - Fix high severity alert in rack
   - Upgrade to rails 4.2.11.3
   - Add manifest.js for sprockets 4.0
