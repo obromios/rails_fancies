@@ -1,5 +1,8 @@
 # Rails Fancies deployment history
-## v1.0.171
+## v1.0.17
+  - Fix high severity alert in rack
+  - Upgrade to rails 4.2.11.3
+  - Add manifest.js for sprockets 4.0
 ## v1.0.16 014cd72 26-3-2020 10:09
   - explain escape_javascript unknown_input security issue in README
 ## v1.0.15 bd14c43 1-3-2020 17:51

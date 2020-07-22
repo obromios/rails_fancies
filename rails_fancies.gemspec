@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
   # rubocop:enable LineLength
   s.add_development_dependency 'better_errors', '~> 2.1', '>= 2.1.1'
-  s.add_development_dependency 'rails', '~> 4.2', '>= 4.2.11.1'
   s.add_development_dependency 'rails-html-sanitizer', '~> 1.2', '>= 1.2.0'
   s.add_development_dependency 'rspec-rails', '~> 3.8','>= 3.8.2'
   s.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
@@ -30,8 +29,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'loofah', '~> 2.3', '>= 2.3.1'
   s.add_development_dependency 'meta_request', '~> 0.4', '>= 0.4.0'
   s.add_development_dependency 'sassc-rails', '~> 1.2', '>= 1.2.1'
-  s.add_development_dependency 'rack', '~> 1.6', '>= 1.6.12'
+  s.add_development_dependency 'rack'
   s.add_development_dependency 'nokogiri', '~> 1.10', '>= 1.10.8'
   s.add_development_dependency 'rake', '~> 12.3.3bundle', '>= 12.3.3'
-  s.add_runtime_dependency 'rails', '~> 4.2', '>= 4.2.11.1'
+  s.add_runtime_dependency 'rails', '~> 4.2', '>= 4.2.11.3'
 end
