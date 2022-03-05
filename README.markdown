@@ -1,4 +1,4 @@
-#Rails Fancies
+# Rails Fancies
 
 ## Introduction
 Rails Fancies is an open source project to develop some fanciful Ruby on Rails helpers.  Most rails helpers tend to be tightly focused on placing a single element on a page, like a link or an image tag.  Rails Fancies is for helpers that are more complex and can form the basis of complete a web page. 
@@ -16,6 +16,8 @@ and then bundle.
 Rails 4
 ```
 
+# Security issue
+You may have noticed that Github has flagged the escape_javascript unknown_input [security issue](https://github.com/obromios/chris_lib/network/alert/Gemfile.lock/actionview/open).  We have not upgraded actionview, because this repository does not use the escape_javascript unknown_input method. If you do disagree with this explanation or have identified any potential security issues with this repository, please contact us.
 
 ## How to Use FAQ Helper
 In your gemfile, include
