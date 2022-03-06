@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'meta_request', '~> 0.4', '>= 0.4.0'
   s.add_development_dependency 'sassc-rails', '~> 1.2', '>= 1.2.1'
   s.add_development_dependency 'rack'
-  s.add_development_dependency 'nokogiri', '~> 1.10', '>= 1.10.8'
+  s.add_development_dependency 'nokogiri'
   s.add_development_dependency 'rake', '~> 12.3.3bundle', '>= 12.3.3'
   s.add_development_dependency 'bigdecimal', '~> 1.4'
   s.add_development_dependency 'rails', '~> 4.2', '>= 4.2.11.3'
