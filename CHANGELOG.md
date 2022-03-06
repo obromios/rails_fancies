@@ -1,6 +1,7 @@
 # Rails Fancies deployment history
 ## v1.0.18
   - Remove all runtime dependencies
+  - update nokogiri
 ## v1.0.17 43d8adc 22-7-2020 16:47
   - Fix high severity alert in rack
   - Upgrade to rails 4.2.11.3

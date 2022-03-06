@@ -51,6 +51,7 @@ GEM
     builder (3.2.4)
     callsite (0.0.11)
     coderay (1.1.1)
+    colorize (0.8.1)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     debug_inspector (0.0.3)
@@ -159,6 +160,7 @@ DEPENDENCIES
   better_errors (~> 2.1, >= 2.1.1)
   bigdecimal (~> 1.4)
   binding_of_caller (~> 0.7, >= 0.7.2)
+  colorize
   ffi (= 1.9.24)
   loofah (~> 2.3, >= 2.3.1)
   meta_request (~> 0.4, >= 0.4.0)

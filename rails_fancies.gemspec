@@ -33,5 +33,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'nokogiri'
   s.add_development_dependency 'rake', '~> 12.3.3bundle', '>= 12.3.3'
   s.add_development_dependency 'bigdecimal', '~> 1.4'
+  s.add_development_dependency 'colorize'
   s.add_development_dependency 'rails', '~> 4.2', '>= 4.2.11.3'
 end
