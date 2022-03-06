@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/obromios/rails_fancies'
   # rubocop:disable LineLength
   s.summary     = 'Rails Fancies is an open source project to develop some fanciful Ruby on Rails helpers.'
-  s.description = 'Most rails helpers tend to be tightly focused on placing a single element on a page, like a link or an image tag.  Rails Fancies is for helpers that are more complex and can form the basis of complete a web page. The inaugural helper is a FAQ helper.'
+  s.description = 'Most rails helpers tend to be tightly focused on placing a single element on a page, like a link or an image tag.  Rails Fancies is for helpers that are more complex and can form the basis of complete a web page. The inaugural helpers are a FAQ helper and a weekly calendar helper.'
   s.license     = 'MIT'
   s.metadata    = {
     'source_code_uri' => 'https://github.com/obromios/rails_fancies',
