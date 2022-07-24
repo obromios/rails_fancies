@@ -1,9 +1,11 @@
 # Rails Fancies deployment history
-## v1.0.19
+## v1.1.0
+  -
+## v1.0.19 - 9f0c701 24-7-2022 17:56
   - Upgrade to rails 6.0
   - Fix security issues
-## v1.0.18
-  - Remove all runtime dependencies - fecbb20 6-3-2022
+## v1.0.18 - fecbb20 6-3-2022
+  - Remove all runtime dependencies 
   - update nokogiri
 ## v1.0.17 43d8adc 22-7-2020 16:47
   - Fix high severity alert in rack
