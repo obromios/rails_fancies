@@ -16,9 +16,6 @@ and then bundle.
 Rails 4
 ```
 
-# Security issues
-Note that the runtime_depencies are based on rails 4, which is no longer supported, so there may be security issues with these dependencies.
-
 ## How to Use FAQ Helper
 In your gemfile, include
 
