@@ -5,6 +5,7 @@ require File.expand_path("../dummy/config/environment", __FILE__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'spec_helper'
 require 'rspec/rails'
+include Rails.application.routes.url_helpers
 require 'rails_fancies/fancy_faq_helper'
 # Add additional requires below this line. Rails is not loaded until this point!
 
