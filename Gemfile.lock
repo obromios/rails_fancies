@@ -95,8 +95,12 @@ GEM
       railties (>= 3.0.0, < 7)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.0)
     minitest (5.16.3)
     nio4r (2.5.8)
+    nokogiri (1.13.9)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.13.9-x86_64-darwin)
       racc (~> 1.4)
     racc (1.6.0)
@@ -164,6 +168,8 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.5.3)
+      mini_portile2 (~> 2.8.0)
     sqlite3 (1.5.3-x86_64-darwin)
     thor (1.2.1)
     tilt (2.0.11)
@@ -175,6 +181,7 @@ GEM
     zeitwerk (2.6.1)
 
 PLATFORMS
+  ruby
   x86_64-darwin-21
 
 DEPENDENCIES
