@@ -1,6 +1,6 @@
 # Rails Fancies deployment history
 ## v1.1.1
-  -
+  - Update nokogiri, rails-html-sanitizer for security, ATP
 ## v1.1.0 - 15753e7 24-10-2022 19:30
   - Upgrade to rails 6.1.7 for security
 ## v1.0.19 - 9f0c701 24-7-2022 17:56
