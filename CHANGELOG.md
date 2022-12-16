@@ -1,6 +1,6 @@
 # Rails Fancies deployment history
 ## v1.1.2
-  -
+  - update to ruby 3.1.3
 ## v1.1.1
   - Update nokogiri, rails-html-sanitizer for security, ATP
 ## v1.1.0 - 15753e7 24-10-2022 19:30
