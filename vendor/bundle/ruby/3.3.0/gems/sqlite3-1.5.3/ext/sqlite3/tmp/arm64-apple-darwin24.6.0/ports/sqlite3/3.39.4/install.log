@@ -1,0 +1,16 @@
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+ /opt/homebrew/bin/gmkdir -p '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/include'
+ /opt/homebrew/bin/gmkdir -p '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/lib'
+ /opt/homebrew/bin/gmkdir -p '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/lib/pkgconfig'
+ /opt/homebrew/bin/gmkdir -p '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/share/man/man1'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libsqlite3.la '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/lib'
+ /usr/bin/install -c -m 644 sqlite3.h sqlite3ext.h '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/include'
+ /usr/bin/install -c -m 644 sqlite3.pc '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/lib/pkgconfig'
+ /usr/bin/install -c -m 644 sqlite3.1 '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/share/man/man1'
+libtool: install: /usr/bin/install -c .libs/libsqlite3.lai /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/lib/libsqlite3.la
+libtool: install: /usr/bin/install -c .libs/libsqlite3.a /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/lib/libsqlite3.a
+libtool: install: chmod 644 /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/lib/libsqlite3.a
+libtool: install: ranlib /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/lib/libsqlite3.a
+ /opt/homebrew/bin/gmkdir -p '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c sqlite3 '/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/bin'
+libtool: install: /usr/bin/install -c sqlite3 /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4/bin/sqlite3

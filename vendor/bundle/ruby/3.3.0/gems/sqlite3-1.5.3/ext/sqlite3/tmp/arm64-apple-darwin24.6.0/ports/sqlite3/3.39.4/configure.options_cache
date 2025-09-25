@@ -1,0 +1,1 @@
+["--host=arm64-apple-darwin24.6.0", "--enable-static", "--disable-shared", "--enable-shared=no", "--enable-static=yes", "LDFLAGS=-L/usr/local/opt/tcl-tk/lib", "CPPFLAGS=-I/usr/local/opt/tcl-tk/include", "CC=gcc", "CFLAGS=-fPIC -O2", "--prefix=/Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.5.3/ports/arm64-apple-darwin24.6.0/sqlite3/3.39.4"]

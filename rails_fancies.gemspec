@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'better_errors'
   s.add_development_dependency 'rails-html-sanitizer'
   s.add_development_dependency 'rspec-rails'
-  s.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
+  s.add_development_dependency 'sqlite3', '>= 2.1'
   s.add_development_dependency 'binding_of_caller'
   s.add_development_dependency 'ffi'
   s.add_development_dependency 'loofah'
@@ -32,5 +32,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rack'
   s.add_development_dependency 'nokogiri'
   s.add_development_dependency 'rake'
-  s.add_runtime_dependency 'rails'
+  s.add_runtime_dependency 'rails', '~> 8.0'
 end

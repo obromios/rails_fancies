@@ -1,0 +1,18 @@
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+/Users/chris/.rvm/rubies/ruby-3.3.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make -j8 DESTDIR\= sitearchdir\=./.gem.20250925-5923-gnnmi5 sitelibdir\=./.gem.20250925-5923-gnnmi5 clean
+
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make -j8 DESTDIR\= sitearchdir\=./.gem.20250925-5923-gnnmi5 sitelibdir\=./.gem.20250925-5923-gnnmi5
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make -j8 DESTDIR\= sitearchdir\=./.gem.20250925-5923-gnnmi5 sitelibdir\=./.gem.20250925-5923-gnnmi5 install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20250925-5923-gnnmi5
+
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make -j8 DESTDIR\= sitearchdir\=./.gem.20250925-5923-gnnmi5 sitelibdir\=./.gem.20250925-5923-gnnmi5 clean

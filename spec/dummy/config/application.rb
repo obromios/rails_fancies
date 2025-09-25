@@ -27,6 +27,8 @@ module Dummy
 
     # ensure lib modules are loaded automatically
     config.eager_load_paths += ["#{Rails.root.parent.parent}/lib}"]
+
+    # Opt into Rails 8.1 timezone-preserving `to_time` behavior now to silence deprecation warnings.
+    config.active_support.to_time_preserves_timezone = :zone
   end
 end
-

@@ -1,0 +1,18 @@
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/chris/.rvm/rubies/ruby-3.3.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make -j8 DESTDIR\= sitearchdir\=./.gem.20250925-5923-ayxrt8 sitelibdir\=./.gem.20250925-5923-ayxrt8 clean
+
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make -j8 DESTDIR\= sitearchdir\=./.gem.20250925-5923-ayxrt8 sitelibdir\=./.gem.20250925-5923-ayxrt8
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make -j8 DESTDIR\= sitearchdir\=./.gem.20250925-5923-ayxrt8 sitelibdir\=./.gem.20250925-5923-ayxrt8 install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20250925-5923-ayxrt8/racc
+
+current directory: /Users/chris/Sites/rails_fancies/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make -j8 DESTDIR\= sitearchdir\=./.gem.20250925-5923-ayxrt8 sitelibdir\=./.gem.20250925-5923-ayxrt8 clean
