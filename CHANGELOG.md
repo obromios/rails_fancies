@@ -1,6 +1,6 @@
 # Rails Fancies deployment history
 ## v1.1.4
-  -
+  - Upgrade to rails 8.0.3
 ## v1.1.3 0071ef5 25-1-2023 10:12
   - Update to rails  6.1.7.1
 ## v1.1.2 e147e5c 16-12-2022 12:2
@@ -13,7 +13,7 @@
   - Upgrade to rails 6.0
   - Fix security issues
 ## v1.0.18 - fecbb20 6-3-2022
-  - Remove all runtime dependencies 
+  - Remove all runtime dependencies
   - update nokogiri
 ## v1.0.17 43d8adc 22-7-2020 16:47
   - Fix high severity alert in rack
@@ -39,7 +39,7 @@
 ## v1.0.4
   - Merge with Uni branch
   - Upgrade to ruby 2.5.1
-## v1.0.3 
+## v1.0.3
   - updated loofah and rails-html-sanitizer gems for security reasons.
 ## v1.0.2
 	- Remove restriction to rails 4
