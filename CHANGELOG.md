@@ -1,5 +1,7 @@
 # Rails Fancies deployment history
-## v1.1.4
+## v1.1.5
+  -
+## v1.1.4 c87e274 26-9-2025 9:56
   - Upgrade to rails 8.0.3
 ## v1.1.3 0071ef5 25-1-2023 10:12
   - Update to rails  6.1.7.1
