@@ -1,5 +1,7 @@
 # Rails Fancies deployment history
-## v1.1.5
+## v1.1.6
+  -
+## v1.1.5 81bfdfc 9-10-2025 15:46
   - upgrade uri to 1.0.4 for security
   - upgrade rack to 3.2.1 for security
   - upgrade to ruby 3.4.5

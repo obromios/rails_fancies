@@ -16,7 +16,7 @@ system "gem push rails_fancies-#{RailsFancies::VERSION}.gem"
 `git push --tags`
 puts "pushed v#{RailsFancies::VERSION} tag"
 git_sha = `git log --pretty=format:'%h' -n 1`
-puts "Bump version, remove *.gem files, update changelog with #{git_sha} #{time_hash}"
+puts "Bump version, remove old .ruby_version_xxx files, update changelog with #{git_sha} #{time_hash}"
 
 BEGIN {
   def time_hash
