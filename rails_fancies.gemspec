@@ -32,5 +32,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rack'
   s.add_development_dependency 'nokogiri'
   s.add_development_dependency 'rake'
-  s.add_runtime_dependency 'rails', '~> 8.0'
+  s.add_runtime_dependency 'rails', '~> 8.0.4', '>= 8.0.4.1'
 end
