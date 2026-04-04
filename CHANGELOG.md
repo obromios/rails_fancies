@@ -1,6 +1,9 @@
 # Rails Fancies deployment history
-## v1.1.6
-  -
+## v1.1.7 811981e 4-4-2026 15:37
+  - Upgrade rack for security
+  - remove Gemfile.lock from git
+## v1.1.6 287c7f4 Apr 4 12:12:33 2026 +1100
+  - Upgrade active_storage for security
 ## v1.1.5 81bfdfc 9-10-2025 15:46
   - upgrade uri to 1.0.4 for security
   - upgrade rack to 3.2.1 for security
